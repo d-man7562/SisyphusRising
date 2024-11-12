@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtsss7u05d121"
-path="res://.godot/imported/RockThumb.webp-d35032dc5701823d90c330d97128dbdf.ctex"
+path="res://.godot/imported/RockThumb.webp-92c9bc4795a7c49cc0b6f428cbcd34cc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://RockThumb.webp"
-dest_files=["res://.godot/imported/RockThumb.webp-d35032dc5701823d90c330d97128dbdf.ctex"]
+source_file="res://graphics/RockThumb.webp"
+dest_files=["res://.godot/imported/RockThumb.webp-92c9bc4795a7c49cc0b6f428cbcd34cc.ctex"]
 
 [params]
 

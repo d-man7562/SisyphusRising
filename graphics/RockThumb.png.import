@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://beerg4paoor0r"
-path="res://.godot/imported/RockThumb.png-3bba61e57f25b5dfdb044ef371745a14.ctex"
+path="res://.godot/imported/RockThumb.png-2e597a957a0db3c5ad3b0eeec52c0618.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://RockThumb.png"
-dest_files=["res://.godot/imported/RockThumb.png-3bba61e57f25b5dfdb044ef371745a14.ctex"]
+source_file="res://graphics/RockThumb.png"
+dest_files=["res://.godot/imported/RockThumb.png-2e597a957a0db3c5ad3b0eeec52c0618.ctex"]
 
 [params]
 
