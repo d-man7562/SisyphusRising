@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://scenes/scripts/parallax_background.gd" id="1_x82xw"]
 [ext_resource type="Texture2D" uid="uid://c33qooyvgsqng" path="res://graphics/dry_trees.jpeg" id="2_s4sqw"]
 [ext_resource type="PackedScene" uid="uid://sm1c5egvssnr" path="res://scenes/player.tscn" id="3_6fmrx"]
-[ext_resource type="PackedScene" uid="uid://c4jg5jdwfc0tg" path="res://boulder_spawner.tscn" id="4_rnid1"]
+[ext_resource type="PackedScene" uid="uid://c4jg5jdwfc0tg" path="res://scenes/boulder_spawner.tscn" id="4_rnid1"]
 
 [node name="MainLevel" type="Node2D"]
 
