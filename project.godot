@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="2D_Testing"
+run/main_scene="res://scenes/MAIN_LEVEL.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
 config/icon="res://graphics/icon.svg"
 

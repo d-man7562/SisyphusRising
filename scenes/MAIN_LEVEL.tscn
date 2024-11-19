@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://duyvxhfnu2woo"]
+
+[ext_resource type="Script" path="res://scenes/scripts/parallax_background.gd" id="1_x82xw"]
+[ext_resource type="Texture2D" uid="uid://c33qooyvgsqng" path="res://graphics/dry_trees.jpeg" id="2_s4sqw"]
+[ext_resource type="PackedScene" uid="uid://sm1c5egvssnr" path="res://scenes/player.tscn" id="3_6fmrx"]
+
+[node name="MainLevel" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+script = ExtResource("1_x82xw")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2(1024, 1024)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+texture_repeat = 3
+position = Vector2(-1085, -1028)
+texture = ExtResource("2_s4sqw")
+centered = false
+offset = Vector2(1024, 1024)
+
+[node name="Player" parent="." instance=ExtResource("3_6fmrx")]
+position = Vector2(359, 881)
