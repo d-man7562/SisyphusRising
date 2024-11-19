@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://duyvxhfnu2woo"]
+[gd_scene load_steps=5 format=3 uid="uid://duyvxhfnu2woo"]
 
 [ext_resource type="Script" path="res://scenes/scripts/parallax_background.gd" id="1_x82xw"]
 [ext_resource type="Texture2D" uid="uid://c33qooyvgsqng" path="res://graphics/dry_trees.jpeg" id="2_s4sqw"]
 [ext_resource type="PackedScene" uid="uid://sm1c5egvssnr" path="res://scenes/player.tscn" id="3_6fmrx"]
+[ext_resource type="PackedScene" uid="uid://c4jg5jdwfc0tg" path="res://boulder_spawner.tscn" id="4_rnid1"]
 
 [node name="MainLevel" type="Node2D"]
 
@@ -14,10 +15,13 @@ motion_mirroring = Vector2(1024, 1024)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
 texture_repeat = 3
-position = Vector2(-1085, -1028)
+position = Vector2(-1147, -1175)
+scale = Vector2(1.0791, 1.14355)
 texture = ExtResource("2_s4sqw")
 centered = false
 offset = Vector2(1024, 1024)
 
 [node name="Player" parent="." instance=ExtResource("3_6fmrx")]
 position = Vector2(359, 881)
+
+[node name="BoulderSpawner" parent="." instance=ExtResource("4_rnid1")]

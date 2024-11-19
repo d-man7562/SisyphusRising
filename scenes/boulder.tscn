@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://pb6do6vmysdp"]
+
+[ext_resource type="Texture2D" uid="uid://beerg4paoor0r" path="res://graphics/RockThumb.png" id="1_m6f88"]
+[ext_resource type="Script" path="res://scenes/boulder.gd" id="2_ao5tc"]
+
+[node name="RockObstacle" type="Sprite2D"]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_m6f88")
+script = ExtResource("2_ao5tc")

@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731983534
+::res://::1731986110
 README.md::TextFile::-1::1731983425::0::1::::<><>::
 ::res://graphics/::1731983479
 dry_trees.jpeg::CompressedTexture2D::6796928812728810896::1731983425::1731983479::1::::<><>::
@@ -7,12 +7,11 @@ icon.svg::CompressedTexture2D::6382043407518270374::1731983425::1731983479::1:::
 RockThumb.jpg::CompressedTexture2D::8544179565497261379::1731983425::1731983479::1::::<><>::
 RockThumb.png::CompressedTexture2D::2676478019270428855::1731983425::1731983479::1::::<><>::
 RockThumb.webp::CompressedTexture2D::8531135642754496432::1731983425::1731983479::1::::<><>::
-::res://scenes/::1731984445
-obstacle_node.tscn::PackedScene::8101431197410274543::1731984445::0::1::::<><>::uid://beerg4paoor0r::::res://graphics/RockThumb.png
-player.tscn::PackedScene::1289755514114164403::1731983425::0::1::::<><>::res://scripts/player.gd<>uid://cw6rk72j3ef0a::::res://graphics/icon.svg
-MAIN_LEVEL.tscn::PackedScene::8613900496051241274::1731984457::0::1::::<><>::res://scripts/parallax_background.gd<>uid://c33qooyvgsqng::::res://graphics/dry_trees.jpeg
-rock_obstacle.tscn::PackedScene::1056785400669003677::1731983425::0::1::::<><>::uid://beerg4paoor0r::::res://graphics/RockThumb.png
-::res://scripts/::1731983425
-marker_array.gd::GDScript::-1::1731983425::0::1::::<>Node2D<>::
+::res://scenes/::1731988368
+boulder.tscn::PackedScene::1056785400669003677::1731988361::0::1::::<><>::uid://beerg4paoor0r::::res://graphics/RockThumb.png
+MAIN_LEVEL.tscn::PackedScene::8613900496051241274::1731988360::0::1::::<><>::res://scenes/scripts/parallax_background.gd<>uid://c33qooyvgsqng::::res://graphics/dry_trees.jpeg<>uid://sm1c5egvssnr::::res://scenes/player.tscn
+player.tscn::PackedScene::1289755514114164403::1731988360::0::1::::<><>::res://scenes/scripts/player.gd<>uid://cw6rk72j3ef0a::::res://graphics/icon.svg
+boulder_spawner.gd::GDScript::-1::1731988461::0::1::::<>Node2D<>::
+::res://scenes/scripts/::1731987053
 parallax_background.gd::GDScript::-1::1731983425::0::1::::<>ParallaxBackground<>::
 player.gd::GDScript::-1::1731983425::0::1::::<>Node2D<>::

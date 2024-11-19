@@ -1,3 +1,7 @@
 res://scenes/MAIN_LEVEL.tscn
 res://scenes/obstacle_node.tscn
 res://scenes/player.tscn
+res://scenes/boulder.tscn
+res://scenes/boulder.gd
+res://scenes/scripts/boulder_spawner.gd
+res://scenes/scripts/player.gd
