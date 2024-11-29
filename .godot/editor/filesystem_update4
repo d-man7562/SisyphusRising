@@ -1,4 +1,4 @@
-res://scenes/player.tscn
 res://scenes/MAIN_LEVEL.tscn
+res://scenes/player.tscn
 res://scenes/boulder.tscn
-res://scenes/scripts/player.gd
+res://scenes/scripts/Hitbox.gd
