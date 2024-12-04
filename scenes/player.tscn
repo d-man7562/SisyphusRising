@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://sm1c5egvssnr"]
+[gd_scene load_steps=12 format=3 uid="uid://sm1c5egvssnr"]
 
 [ext_resource type="Script" path="res://scenes/scripts/player.gd" id="1_5mrkn"]
 [ext_resource type="Texture2D" uid="uid://cw6rk72j3ef0a" path="res://graphics/icon.svg" id="1_j3lod"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://dipcpcv7hsqk4" path="res://graphics/frame_3.png" id="6_a0o66"]
 [ext_resource type="Texture2D" uid="uid://dq83obqekpea3" path="res://graphics/frame_4.png" id="7_es5na"]
 [ext_resource type="Texture2D" uid="uid://ok357t2titpm" path="res://graphics/frame_5.png" id="8_7tvu5"]
+[ext_resource type="Script" path="res://scenes/scripts/Hurtbox.gd" id="9_ja3tl"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_atjxl"]
 animations = [{
@@ -35,6 +36,10 @@ animations = [{
 "speed": 10.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6sq8p"]
+radius = 146.0
+height = 640.0
+
 [node name="Player" type="Node2D"]
 scale = Vector2(0.5, 0.5)
 script = ExtResource("1_5mrkn")
@@ -47,3 +52,12 @@ sprite_frames = SubResource("SpriteFrames_atjxl")
 animation = &"running_default"
 frame = 4
 frame_progress = 0.696198
+
+[node name="HurtBox" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("9_ja3tl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtBox"]
+position = Vector2(2, -32)
+shape = SubResource("CapsuleShape2D_6sq8p")

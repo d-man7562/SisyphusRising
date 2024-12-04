@@ -1,9 +1,29 @@
-[gd_scene load_steps=3 format=3 uid="uid://pb6do6vmysdp"]
+[gd_scene load_steps=5 format=3 uid="uid://pb6do6vmysdp"]
 
 [ext_resource type="Texture2D" uid="uid://beerg4paoor0r" path="res://graphics/RockThumb.png" id="1_m6f88"]
 [ext_resource type="Script" path="res://scenes/scripts/boulder.gd" id="2_ao5tc"]
+[ext_resource type="Script" path="res://scenes/scripts/Hitbox.gd" id="3_npbfd"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rrl6x"]
+radius = 183.852
+height = 590.881
 
 [node name="RockObstacle" type="Sprite2D"]
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("1_m6f88")
 script = ExtResource("2_ao5tc")
+
+[node name="Hitbox" type="Area2D" parent="."]
+position = Vector2(952, 934)
+scale = Vector2(3, 3)
+collision_layer = 2
+collision_mask = 0
+script = ExtResource("3_npbfd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
+light_mask = 3
+visibility_layer = 3
+position = Vector2(-320, -304.667)
+rotation = 1.58301
+scale = Vector2(0.333333, 0.333333)
+shape = SubResource("CapsuleShape2D_rrl6x")
