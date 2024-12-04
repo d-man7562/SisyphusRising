@@ -16,13 +16,11 @@ script = ExtResource("2_ao5tc")
 [node name="Hitbox" type="Area2D" parent="."]
 position = Vector2(952, 934)
 scale = Vector2(3, 3)
-collision_layer = 2
-collision_mask = 0
+collision_layer = 0
+collision_mask = 3
 script = ExtResource("3_npbfd")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
-light_mask = 3
-visibility_layer = 3
 position = Vector2(-320, -304.667)
 rotation = 1.58301
 scale = Vector2(0.333333, 0.333333)
