@@ -3,3 +3,5 @@ res://scenes/scripts/Hurtbox.gd
 res://scenes/player.tscn
 res://scenes/boulder.tscn
 res://scenes/scripts/Hitbox.gd
+res://scenes/scripts/boulder.gd
+res://scenes/scripts/player.gd

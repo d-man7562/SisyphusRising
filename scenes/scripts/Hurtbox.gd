@@ -1,13 +1,12 @@
 class_name HurtBox
 extends Area2D
 
-#signal touch_boulder()
-
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
+	# Connect the signal properly
+	area_entered.connect(_on_area_entered)
 
-
-func _on_area_entered(hitbox:Hitbox) -> void:
-		if hitbox!=null:
-			print("contact!")
+# Change parameter type to Area2D
+func _on_area_entered(area: Area2D) -> void:
+	# Check if the area is a Hitbox
+	if area is Hitbox:
+		print("contact from hurtbox!")
