@@ -9,14 +9,15 @@
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 script = ExtResource("1_x82xw")
+scroll_speed = null
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
 motion_mirroring = Vector2(1024, 1024)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
 texture_repeat = 3
-position = Vector2(-1147, -1175)
-scale = Vector2(1.0791, 1.14355)
+position = Vector2(-1147, -1374)
+scale = Vector2(1.0791, 1.33887)
 texture = ExtResource("2_s4sqw")
 centered = false
 offset = Vector2(1024, 1024)

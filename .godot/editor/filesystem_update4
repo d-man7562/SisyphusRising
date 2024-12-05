@@ -1,7 +1,6 @@
 res://scenes/MAIN_LEVEL.tscn
-res://scenes/scripts/Hurtbox.gd
+res://scenes/scripts/Hitbox.gd
+res://scenes/scripts/parallax_background.gd
 res://scenes/player.tscn
 res://scenes/boulder.tscn
-res://scenes/scripts/Hitbox.gd
-res://scenes/scripts/boulder.gd
-res://scenes/scripts/player.gd
+res://scenes/scripts/Hurtbox.gd

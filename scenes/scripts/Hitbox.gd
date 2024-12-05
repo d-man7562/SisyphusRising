@@ -1,6 +1,7 @@
 class_name Hitbox
 extends Area2D
-@onready var parallax_background: ParallaxBackground = $ParallaxBackground
+#@onready var parallax_background: ParallaxBackground = $ParallaxBackground
+signal collision_detected
 
 func _ready() -> void:
 	# Connect the signal properly
@@ -10,10 +11,9 @@ func _ready() -> void:
 func _on_area_entered(area: Area2D) -> void:
 	# Check if the area is a HurtBox
 	if area is HurtBox:
-		print("Contact from hitbox!")
-		death_loop()
+		print("Boulder Hitbox detect collision with hurtbox")
+		collision_detected.emit()
 
 
-func death_loop() -> void:
-	parallax_background.scroll_offset.y = 0
+
 	#print(parallax_background.scroll_offset.y)
