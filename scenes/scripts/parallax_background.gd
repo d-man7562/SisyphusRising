@@ -5,9 +5,10 @@ var is_scrolling: bool = true
 # Called when the node enters the scene tree for the first time.
 
 func _ready() -> void:
-	var hurtbox = get_node("player/Hurtbox")
+	pass
+	#var hurtbox = get_node("player/Hurtbox")
 	#is_scrolling = true
-	 hurtbox.collision_detected.connect(_on_collision)
+	# hurtbox.collision_detected.connect(_on_collision)
 	#var hitbox = get_node("res://scenes/scripts/Hitbox.gd")
 	#hitbox.collision_detected.connect(_on_collision)
 
