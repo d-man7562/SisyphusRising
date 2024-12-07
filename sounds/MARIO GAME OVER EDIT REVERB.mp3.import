@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://plsj4u6d7lg8"
+path="res://.godot/imported/MARIO GAME OVER EDIT REVERB.mp3-b56f7046f9136f0d59854303c6f9d11b.mp3str"
+
+[deps]
+
+source_file="res://sounds/MARIO GAME OVER EDIT REVERB.mp3"
+dest_files=["res://.godot/imported/MARIO GAME OVER EDIT REVERB.mp3-b56f7046f9136f0d59854303c6f9d11b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

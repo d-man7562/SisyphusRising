@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://pb6do6vmysdp"]
 
 [ext_resource type="Texture2D" uid="uid://beerg4paoor0r" path="res://graphics/RockThumb.png" id="1_m6f88"]
-[ext_resource type="Script" path="res://scenes/scripts/boulder.gd" id="2_ao5tc"]
-[ext_resource type="Script" path="res://scenes/scripts/Hitbox.gd" id="3_npbfd"]
+[ext_resource type="Script" path="res://scripts/boulder.gd" id="2_ao5tc"]
+[ext_resource type="Script" path="res://scripts/Hitbox.gd" id="3_npbfd"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rrl6x"]
 radius = 183.852
