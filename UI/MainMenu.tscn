@@ -68,5 +68,13 @@ offset_right = 217.0
 offset_bottom = 222.64
 text = "Quit!"
 
+[node name="Controls" type="Button" parent="MenuBar2"]
+layout_mode = 0
+offset_left = 193.0
+offset_top = 100.0
+offset_right = 267.0
+offset_bottom = 131.0
+text = "Controls"
+
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 volume_db = 2.0
