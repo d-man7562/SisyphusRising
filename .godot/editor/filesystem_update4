@@ -1,13 +1,6 @@
-res://scenes/MAIN_LEVEL.tscn
-res://scenes/boulder_spawner.tscn
-res://scenes/boulder.tscn
 res://UI/MainMenu.tscn
-res://scenes/player.tscn
-res://UI/main_menu.gd
-res://scripts/main_level.gd
 res://scripts/main_menu.gd
-res://scripts/boulder_spawner.gd
+res://scenes/player.tscn
+res://scripts/end_screen.gd
 res://scripts/Hurtbox.gd
-res://scripts/parallax_background.gd
-res://scripts/player.gd
-res://README.md
+res://UI/EndScreen.tscn

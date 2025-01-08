@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bf2wwdij0noj7"
+path="res://.godot/imported/Reciting Homer Iliad Book 6 [ ezmp3.cc ].mp3-b88715e93af827afd7f10d1e6a2a5e7a.mp3str"
+
+[deps]
+
+source_file="res://sounds/Reciting Homer Iliad Book 6 [ ezmp3.cc ].mp3"
+dest_files=["res://.godot/imported/Reciting Homer Iliad Book 6 [ ezmp3.cc ].mp3-b88715e93af827afd7f10d1e6a2a5e7a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

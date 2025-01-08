@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://0jnk0k6m5rc6"
+path="res://.godot/imported/Sisyphus meme sound [ ezmp3.cc ].mp3-929a0fe41ebd5494337beac5d133b27c.mp3str"
+
+[deps]
+
+source_file="res://sounds/Sisyphus meme sound [ ezmp3.cc ].mp3"
+dest_files=["res://.godot/imported/Sisyphus meme sound [ ezmp3.cc ].mp3-929a0fe41ebd5494337beac5d133b27c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

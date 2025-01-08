@@ -48,5 +48,7 @@ func _process(delta: float) -> void:
 				player.position.y -= up_force*delta
 		else:
 			player.position.y += grav*delta
+		await get_tree().create_timer(7).timeout
+		get_tree().change_scene_to_file("res://UI/EndScreen.tscn")
 func _on_collision() -> void:
 	parallax.is_scrolling = false

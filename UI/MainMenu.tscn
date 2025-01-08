@@ -8,15 +8,27 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -1.0
-offset_top = 1.0
-offset_right = -1.0
-offset_bottom = 1.0
+offset_left = 61.0
+offset_top = 41.0
+offset_right = 61.0
+offset_bottom = 41.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_s1lfi")
 
-[node name="Label2" type="Label" parent="."]
+[node name="MenuBar2" type="MenuBar" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.255
+anchor_top = 0.017
+anchor_right = 0.546
+anchor_bottom = 0.195
+offset_left = -143.6
+offset_top = 18.24
+offset_right = -353.12
+offset_bottom = -209.6
+
+[node name="Label2" type="Label" parent="MenuBar2"]
 top_level = true
 layout_mode = 0
 offset_left = 276.0
@@ -25,10 +37,10 @@ offset_right = 399.0
 offset_bottom = 101.0
 text = "Sisyphus Rising!"
 
-[node name="MenuBar2" type="MenuBar" parent="."]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+[node name="Sprite2D" type="Sprite2D" parent="MenuBar2"]
+position = Vector2(258, 559)
+scale = Vector2(0.82907, 1.30943)
+texture = ExtResource("2_ef603")
 
 [node name="Start_game" type="Button" parent="MenuBar2"]
 top_level = true
@@ -37,10 +49,10 @@ anchor_left = 0.143
 anchor_top = -0.014
 anchor_right = 0.143
 anchor_bottom = -0.014
-offset_left = 305.28
-offset_top = 148.56
-offset_right = 355.28
-offset_bottom = 179.56
+offset_left = 211.04
+offset_top = 163.92
+offset_right = 261.04
+offset_bottom = 194.92
 text = "Start!"
 
 [node name="Exit_startgame" type="Button" parent="MenuBar2"]
@@ -50,13 +62,10 @@ anchor_left = 0.197
 anchor_top = 0.019
 anchor_right = 0.201
 anchor_bottom = 0.02
-offset_left = 303.12
-offset_top = 203.24
-offset_right = 348.96
-offset_bottom = 234.2
+offset_left = 171.16
+offset_top = 191.68
+offset_right = 217.0
+offset_bottom = 222.64
 text = "Quit!"
 
-[node name="Sprite2D" type="Sprite2D" parent="MenuBar2"]
-position = Vector2(360.5, 639)
-scale = Vector2(0.82907, 1.30943)
-texture = ExtResource("2_ef603")
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
