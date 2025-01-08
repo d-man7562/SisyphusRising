@@ -1,41 +1,42 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1736283713
-export_presets.cfg::TextFile::-1::1736213785::0::1::::<><>::
-README.md::TextFile::-1::1736213853::0::1::::<><>::
-::res://graphics/::1736213847
-dry_trees.jpeg::CompressedTexture2D::6796928812728810896::1732773865::1732859261::1::::<><>::
-frame_0.png::CompressedTexture2D::5923518409164511029::1732773865::1732859261::1::::<><>::
-frame_1.png::CompressedTexture2D::4281797231731384721::1732773865::1732859261::1::::<><>::
-frame_2.png::CompressedTexture2D::2606938175940033523::1732773865::1732859261::1::::<><>::
-frame_3.png::CompressedTexture2D::7751886826340172529::1732773865::1732859261::1::::<><>::
-frame_4.png::CompressedTexture2D::8352133169519843524::1732773865::1732859261::1::::<><>::
-frame_5.png::CompressedTexture2D::1005042949438631270::1732773865::1732859261::1::::<><>::
-Greek_game_sprite_WIP.png::CompressedTexture2D::9139598242061246633::1732773865::1732859261::1::::<><>::
-icon.svg::CompressedTexture2D::6382043407518270374::1732773865::1732859260::1::::<><>::
-Punishment_sisyph.jpg::CompressedTexture2D::7994842192730311122::1736213789::1736213847::1::::<><>::
-RockThumb.jpg::CompressedTexture2D::8544179565497261379::1732773865::1732859261::1::::<><>::
-RockThumb.png::CompressedTexture2D::2676478019270428855::1732773865::1732859261::1::::<><>::
-RockThumb.webp::CompressedTexture2D::8531135642754496432::1732773865::1732859261::1::::<><>::
-::res://scenes/::1736299651
-boulder.tscn::PackedScene::1056785400669003677::1736209674::0::1::::<><>::uid://beerg4paoor0r::::res://graphics/RockThumb.png<>res://scripts/boulder.gd<>res://scripts/Hitbox.gd
-boulder_spawner.tscn::PackedScene::6827315586800358608::1736209674::0::1::::<><>::res://scripts/boulder_spawner.gd
-MainMenu.tscn::PackedScene::-1::1736213785::0::1::::<><>::
-MAIN_LEVEL.tscn::PackedScene::8613900496051241274::1736214127::0::1::::<><>::res://scripts/parallax_background.gd<>uid://c33qooyvgsqng::::res://graphics/dry_trees.jpeg<>uid://sm1c5egvssnr::::res://scenes/player.tscn<>uid://c4jg5jdwfc0tg::::res://scenes/boulder_spawner.tscn
-player.tscn::PackedScene::1289755514114164403::1736299651::0::1::::<><>::res://scripts/player.gd<>uid://cw6rk72j3ef0a::::res://graphics/icon.svg<>uid://cqnnqocqlka26::::res://graphics/frame_0.png<>uid://b2aetsrbvrfjt::::res://graphics/frame_1.png<>uid://bde25j4ecv540::::res://graphics/frame_2.png<>uid://dipcpcv7hsqk4::::res://graphics/frame_3.png<>uid://dq83obqekpea3::::res://graphics/frame_4.png<>uid://ok357t2titpm::::res://graphics/frame_5.png<>res://scripts/Hurtbox.gd
-::res://scripts/::1736299708
-boulder.gd::GDScript::-1::1736207126::0::1::::<>Sprite2D<>::
-boulder_spawner.gd::GDScript::-1::1736213853::0::1::::<>Node2D<>::
-Hitbox.gd::GDScript::-1::1736207126::0::1::::Hitbox<>Area2D<>::
-Hurtbox.gd::GDScript::-1::1736213853::0::1::::HurtBox<>Area2D<>::
-main_menu.gd::GDScript::-1::1736299359::0::1::::<>Control<>::
-parallax_background.gd::GDScript::-1::1736213853::0::1::::<>ParallaxBackground<>::
-player.gd::GDScript::-1::1736213853::0::1::::<>Node2D<>::
-end_screen.gd::GDScript::-1::1736299708::0::1::::<>Control<>::
-::res://sounds/::1736299878
-MARIO GAME OVER EDIT REVERB.mp3::AudioStreamMP3::1076651343367104041::1736207126::1736209686::1::::<><>::
-MUSICORUM ET TIBIA BASS BOOST.mp3::AudioStreamMP3::7344421871948191435::1736207126::1736209686::1::::<><>::
-Reciting Homer Iliad Book 6 [ ezmp3.cc ].mp3::AudioStreamMP3::2794478332920987298::1736285209::1736299045::1::::<><>::
-Sisyphus meme sound [ ezmp3.cc ].mp3::AudioStreamMP3::1774108999539891383::1736299811::1736299892::1::::<><>::
-::res://UI/::1736299685
-MainMenu.tscn::PackedScene::1236157027729601780::1736299651::0::1::::<><>::res://scripts/main_menu.gd<>uid://dl505atwrywi1::::res://graphics/Punishment_sisyph.jpg
-EndScreen.tscn::PackedScene::3839886257780034694::1736299685::0::1::::<><>::
+::res://::1736301496
+export_presets.cfg::TextFile::-1::1733786139::0::1::::<><>::
+README.md::TextFile::-1::1731983425::0::1::::<><>::
+::res://graphics/::1736301496
+9f06d40b175508a9c6e2a33d762fad3b.jpg::CompressedTexture2D::8112335419542963595::1736301449::1736301496::1::::<><>::
+dry_trees.jpeg::CompressedTexture2D::6796928812728810896::1731983425::1736294729::1::::<><>::
+frame_0.png::CompressedTexture2D::5923518409164511029::1732421317::1736294729::1::::<><>::
+frame_1.png::CompressedTexture2D::4281797231731384721::1732421317::1736294729::1::::<><>::
+frame_2.png::CompressedTexture2D::2606938175940033523::1732421317::1736294729::1::::<><>::
+frame_3.png::CompressedTexture2D::7751886826340172529::1732421317::1736294729::1::::<><>::
+frame_4.png::CompressedTexture2D::8352133169519843524::1732421317::1736294729::1::::<><>::
+frame_5.png::CompressedTexture2D::1005042949438631270::1732421317::1736294729::1::::<><>::
+Greek_game_sprite_WIP.png::CompressedTexture2D::9139598242061246633::1732252806::1736294729::1::::<><>::
+icon.svg::CompressedTexture2D::6382043407518270374::1731983425::1736294729::1::::<><>::
+Punishment_sisyph.jpg::CompressedTexture2D::7994842192730311122::1736294688::1736294729::1::::<><>::
+RockThumb.jpg::CompressedTexture2D::8544179565497261379::1731983425::1736294729::1::::<><>::
+RockThumb.png::CompressedTexture2D::2676478019270428855::1731983425::1736294729::1::::<><>::
+RockThumb.webp::CompressedTexture2D::8531135642754496432::1731983425::1736294729::1::::<><>::
+::res://scenes/::1736294962
+boulder.tscn::PackedScene::1056785400669003677::1735960527::0::1::::<><>::uid://beerg4paoor0r::::res://graphics/RockThumb.png<>res://scripts/boulder.gd<>res://scripts/Hitbox.gd
+boulder_spawner.tscn::PackedScene::6827315586800358608::1735960527::0::1::::<><>::res://scripts/boulder_spawner.gd
+MainMenu.tscn::PackedScene::1236157027729601780::1735960527::0::1::::<><>::
+MAIN_LEVEL.tscn::PackedScene::8613900496051241274::1736294688::0::1::::<><>::res://scripts/parallax_background.gd<>uid://c33qooyvgsqng::::res://graphics/dry_trees.jpeg<>uid://sm1c5egvssnr::::res://scenes/player.tscn<>uid://c4jg5jdwfc0tg::::res://scenes/boulder_spawner.tscn
+player.tscn::PackedScene::1289755514114164403::1736294962::0::1::::<><>::res://scripts/player.gd<>uid://cw6rk72j3ef0a::::res://graphics/icon.svg<>uid://cqnnqocqlka26::::res://graphics/frame_0.png<>uid://b2aetsrbvrfjt::::res://graphics/frame_1.png<>uid://bde25j4ecv540::::res://graphics/frame_2.png<>uid://dipcpcv7hsqk4::::res://graphics/frame_3.png<>uid://dq83obqekpea3::::res://graphics/frame_4.png<>uid://ok357t2titpm::::res://graphics/frame_5.png<>res://scripts/Hurtbox.gd
+::res://scripts/::1736294688
+boulder.gd::GDScript::-1::1733530518::0::1::::<>Sprite2D<>::
+boulder_spawner.gd::GDScript::-1::1736294688::0::1::::<>Node2D<>::
+end_screen.gd::GDScript::-1::1736294688::0::1::::<>Control<>::
+Hitbox.gd::GDScript::-1::1733530518::0::1::::Hitbox<>Area2D<>::
+Hurtbox.gd::GDScript::-1::1736294688::0::1::::HurtBox<>Area2D<>::
+main_menu.gd::GDScript::-1::1736294688::0::1::::<>Control<>::
+parallax_background.gd::GDScript::-1::1733542523::0::1::::<>ParallaxBackground<>::
+player.gd::GDScript::-1::1733542523::0::1::::<>Node2D<>::
+::res://sounds/::1736294729
+MARIO GAME OVER EDIT REVERB.mp3::AudioStreamMP3::1076651343367104041::1733535776::1736294729::1::::<><>::
+MUSICORUM ET TIBIA BASS BOOST.mp3::AudioStreamMP3::7344421871948191435::1733541903::1736294729::1::::<><>::
+Reciting Homer Iliad Book 6 [ ezmp3.cc ].mp3::AudioStreamMP3::2794478332920987298::1736294688::1736294729::1::::<><>::
+Sisyphus meme sound [ ezmp3.cc ].mp3::AudioStreamMP3::1774108999539891383::1736294688::1736294729::1::::<><>::
+::res://UI/::1736301496
+EndScreen.tscn::PackedScene::3839886257780034694::1736294962::0::1::::<><>::res://scripts/end_screen.gd
+MainMenu.tscn::PackedScene::1236157027729601780::1736294962::0::1::::<><>::res://scripts/main_menu.gd<>uid://dl505atwrywi1::::res://graphics/Punishment_sisyph.jpg

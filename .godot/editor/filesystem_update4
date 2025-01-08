@@ -1,6 +1,3 @@
 res://UI/MainMenu.tscn
-res://scripts/main_menu.gd
 res://scenes/player.tscn
-res://scripts/end_screen.gd
-res://scripts/Hurtbox.gd
 res://UI/EndScreen.tscn
