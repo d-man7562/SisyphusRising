@@ -13,6 +13,7 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Label2" type="Label" parent="."]
+layout_mode = 0
 offset_left = 276.0
 offset_top = 78.0
 offset_right = 399.0
@@ -20,6 +21,7 @@ offset_bottom = 101.0
 text = "Sisyphus Rising!"
 
 [node name="MenuBar2" type="MenuBar" parent="."]
+layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
 

@@ -1,3 +1,11 @@
 res://UI/MainMenu.tscn
 res://scenes/player.tscn
 res://UI/EndScreen.tscn
+res://scenes/Controls_Screen.tscn
+res://scenes/MainMenu.tscn
+res://scenes/boulder.tscn
+res://scenes/MAIN_LEVEL.tscn
+res://UI/Controls_Screen.tscn
+res://scripts/controls_screen.gd
+res://scenes/boulder_spawner.tscn
+res://scripts/main_menu.gd

@@ -1,8 +1,8 @@
 Button
-Sprite2D
-AudioStreamPlayer2D
 Label
 MenuBar
+Sprite2D
+AudioStreamPlayer2D
 TextEdit
 Container
 Control

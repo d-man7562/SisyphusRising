@@ -16,7 +16,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_s1lfi")
 
-[node name="MenuBar2" type="MenuBar" parent="."]
+[node name="MainMenuBar" type="MenuBar" parent="."]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.255
@@ -28,7 +28,7 @@ offset_top = 18.24
 offset_right = -353.12
 offset_bottom = -209.6
 
-[node name="Label2" type="Label" parent="MenuBar2"]
+[node name="Label2" type="Label" parent="MainMenuBar"]
 top_level = true
 layout_mode = 0
 offset_left = 276.0
@@ -37,12 +37,7 @@ offset_right = 399.0
 offset_bottom = 101.0
 text = "Sisyphus Rising!"
 
-[node name="Sprite2D" type="Sprite2D" parent="MenuBar2"]
-position = Vector2(257.5, 559)
-scale = Vector2(0.840698, 1.30943)
-texture = ExtResource("2_ef603")
-
-[node name="Start_game" type="Button" parent="MenuBar2"]
+[node name="Start_game" type="Button" parent="MainMenuBar"]
 top_level = true
 layout_mode = 2
 anchor_left = 0.143
@@ -55,7 +50,7 @@ offset_right = 261.04
 offset_bottom = 194.92
 text = "Start!"
 
-[node name="Exit_startgame" type="Button" parent="MenuBar2"]
+[node name="Exit_startgame" type="Button" parent="MainMenuBar"]
 top_level = true
 layout_mode = 2
 anchor_left = 0.197
@@ -68,13 +63,42 @@ offset_right = 217.0
 offset_bottom = 222.64
 text = "Quit!"
 
-[node name="Controls" type="Button" parent="MenuBar2"]
+[node name="Controls" type="Button" parent="MainMenuBar"]
+top_level = true
 layout_mode = 0
-offset_left = 193.0
-offset_top = 100.0
-offset_right = 267.0
-offset_bottom = 131.0
+offset_left = 299.0
+offset_top = 181.0
+offset_right = 373.0
+offset_bottom = 212.0
 text = "Controls"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(297.5, 599)
+scale = Vector2(0.840698, 1.30943)
+texture = ExtResource("2_ef603")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 volume_db = 2.0
+
+[node name="ControlsMenuBar" type="MenuBar" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ControlsLabel" type="Label" parent="ControlsMenuBar"]
+layout_mode = 0
+offset_left = 160.0
+offset_top = 136.0
+offset_right = 398.0
+offset_bottom = 185.0
+text = "<-- (Left Arrow) to move left
+-->  (Right Arrow) to move right"
+
+[node name="BackButton" type="Button" parent="ControlsMenuBar"]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 237.0
+offset_right = 301.0
+offset_bottom = 268.0
+text = "Back"
